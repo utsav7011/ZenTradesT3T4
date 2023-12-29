@@ -1,0 +1,77 @@
+body {
+    background-color: #222;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+
+  }
+  
+  .container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-form {
+    padding: 20px;
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    color: white;
+    margin-top: 5px;
+    padding-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px 5px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .form-group input:focus {
+    border-color: #4caf50;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  .forgot-password a {
+    color: #4caf50;
+  }
+  
+  .btn-login {
+    background-color: #4caf50;
+    text-align: center;
+    color: #fff;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px #4caf50;
+    cursor: pointer;
+  }
+  
+  .btn-login:hover {
+    background-color: #449a48;
+  }
+  
